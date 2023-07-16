@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background: #ffedd3;
+}
+header {
+    background: #c4b49c;
+}
+.cabecalho {
+    display: flex;
+
+}
+.btn1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #8f6635;
+    background-color: #fcdcac;
+    padding: 10px 30px;
+    border: solid #b89d7b 2px;
+    box-shadow: #8f6635 2px 3px 0px 2px;
+    border-radius: 30px;
+    transition : 294ms;
+    transform: translateY(0);
+    align-items: center;
+    cursor: pointer;
+    margin: auto;
+    text-decoration: none;
+}
+
+.btn1:hover{
+    transition : 294ms;
+    padding: 10px 30px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #8f6635;
+    border: solid 2px #8f6635;
+}
+.btn2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #8f6635;
+    background-color: #fcdcac;
+    padding: 10px 30px;
+    border: solid #b89d7b 2px;
+    box-shadow: #8f6635 2px 3px 0px 2px;
+    border-radius: 50px;
+    transition : 294ms;
+    transform: translateY(0);
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn2:hover{
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #8f6635;
+    border: solid 2px #8f6635;
+}
+.btn3 {
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #8f6635;
+    background-color: #fcdcac;
+    padding: 10px 30px;
+    border: solid #b89d7b 2px;
+    box-shadow: #8f6635 2px 3px 0px 2px;
+    border-radius: 50px;
+    transition : 294ms;
+    transform: translateY(0);
+    align-items: center;
+    cursor: pointer;
+    margin: auto;
+    text-decoration: none;
+}
+
+.btn3:hover{
+    transition : 294ms;
+    padding: 10px 48px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #8f6635;
+    border: solid 2px #8f6635;
+}
+.logo {
+    width: 180px;
+    margin: auto;
+}
+.css-input {
+    padding: 6px;
+    font-size: 18px;
+    border-width: 3px;
+    border-color: #8f6635;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(66,66,66,.54);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+    margin: auto;
+}
+.css-input:focus {
+    outline:none;
+}
+.assin {
+    display: flex;
+    margin: auto;
+
+}
+.assin2 {
+    margin: auto;
+    
+    
+}
+.logo2 {
+    width: 700px;
+    border-radius: 10px;
+    margin: 50px;
+    -webkit-box-shadow: 0px 14px 36px -9px rgba(0,0,0,0.85);
+    -moz-box-shadow: 0px 14px 36px -9px rgba(0,0,0,0.85);
+    box-shadow: 0px 14px 36px -9px rgba(0,0,0,0.85);
+}
+.jogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.jogo1 {
+    background-color: #c4b49c;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    padding-bottom: 40px;
+}
+.logojogo {
+    width: 300px;
+    background-color: #d62828;
+    border-radius: 20px;
+}
+.titulojogo {
+    padding-bottom: 50px;
+    padding-top: 10px;
+    font-family: 'Lexend', sans-serif;
+    color: #2e200f;
+}
+/*h1 {
+    font-family: 'Mukta', sans-serif;
+}
+h2 {
+    font-family: 'Mukta', sans-serif;
+}
+p {
+    font-family: 'Mukta', sans-serif;
+}*/
+footer {
+    background: #c4b49c;
+}
+.final {
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo1 {
+    font-family: 'Lexend', sans-serif;
+    color: #614421;
+}
+.p1 {
+    font-family: 'Lexend', sans-serif;
+    padding-top: 10px;
+    color: #614421;
+}
+.txtjogos {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    color: #614421;
+}
+.pacote {
+    display: flex;
+    margin: auto;
+    background: #8f6635;
+    margin-bottom: 50px;
+}
+.pacote2 {
+    margin: auto;
+    font-family: 'Lexend', sans-serif;
+    color: #FFFFFF;
+}
+.imgpacote {
+    margin: auto;
+    width: 700px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 14px 36px -9px rgba(0,0,0,0.85);
+    -moz-box-shadow: 0px 14px 36px -9px rgba(0,0,0,0.85);
+    box-shadow: 0px 14px 36px -9px rgba(0,0,0,0.85);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: #FFFFFF 8px solid;
+}
+.btnpacote {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin-top: 40px;
+}
+.btnpacote:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.btnpacote:active {
+	position:relative;
+	top:1px;
+}

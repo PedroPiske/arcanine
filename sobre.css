@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background: #ffedd3;
+}
+header {
+    background: #c4b49c;
+}
+.cabecalho {
+    display: flex;
+
+}
+.btn1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #8f6635;
+    background-color: #fcdcac;
+    padding: 10px 30px;
+    border: solid #b89d7b 2px;
+    box-shadow: #8f6635 2px 3px 0px 2px;
+    border-radius: 30px;
+    transition : 294ms;
+    transform: translateY(0);
+    align-items: center;
+    cursor: pointer;
+    margin: auto;
+    text-decoration: none;
+}
+
+.btn1:hover{
+    transition : 294ms;
+    padding: 10px 30px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #8f6635;
+    border: solid 2px #8f6635;
+}
+.btn2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #8f6635;
+    background-color: #fcdcac;
+    padding: 10px 30px;
+    border: solid #b89d7b 2px;
+    box-shadow: #8f6635 2px 3px 0px 2px;
+    border-radius: 50px;
+    transition : 294ms;
+    transform: translateY(0);
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn2:hover{
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #8f6635;
+    border: solid 2px #8f6635;
+}
+.btn3 {
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #8f6635;
+    background-color: #fcdcac;
+    padding: 10px 30px;
+    border: solid #b89d7b 2px;
+    box-shadow: #8f6635 2px 3px 0px 2px;
+    border-radius: 50px;
+    transition : 294ms;
+    transform: translateY(0);
+    align-items: center;
+    cursor: pointer;
+    margin: auto;
+    text-decoration: none;
+}
+
+.btn3:hover{
+    transition : 294ms;
+    padding: 10px 48px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #8f6635;
+    border: solid 2px #8f6635;
+}
+.logo {
+    width: 180px;
+    margin: auto;
+}
+.css-input {
+    padding: 6px;
+    font-size: 18px;
+    border-width: 3px;
+    border-color: #8f6635;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(66,66,66,.54);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+    margin: auto;
+}
+.css-input:focus {
+    outline:none;
+}
